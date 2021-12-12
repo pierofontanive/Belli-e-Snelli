@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuova Prenotazione</title>
+    <style>
+      body {
+        background-image: url("/Photo/pren.jpeg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+    <input type="button" value="Torna alla Home" id="back_home" style="height:35px; width: 125px" onclick="location.href='http://localhost:3000/home.html'"/>
+    <input type="button" value="Aggiorna" id="refresh" style="height:35px; width: 125px" onclick="location.href='http://localhost:3000/nuova_prenotazione.html'"/>
+  </head>
+  <body>
+    <div style="text-align: center;">
+      <h1 style="color: rgb(20, 70, 120);" style="text-align:center;"><b>Prenota una nuova consulenza</b></h1>
+    </div>
+    <div style="text-align: center;">
+      <form action="/new_consulenza" method="POST">
+        <select class="nome_allenatore" name="nome_allenatore" id="nome_allenatore" placeholder="Selezione l'allenatore" required style="margin-top: 10px; min-height: 40px; min-width: 210px;">
+          <option selected="selected">Mario Rossi</option>
+        </select>
+        <br>
+        <input type="text" class="box" id="data" name="data" placeholder="Data (dd/mm/yyyy)" required style="margin-top: 10px; min-height: 30px; min-width: 200px;"/>
+        <br>
+        <input type="text" class="box" id="ora_da" name="ora_da" placeholder="Ora Inizio (hh:mm)" required style="margin-top: 10px; min-height: 30px; min-width: 200px;"/>
+        <br>
+        <input type="text" class="box" id="ora_a" name="ora_a" placeholder="Ora Fine (hh:mm)" required style="margin-top: 10px; min-height: 30px; min-width: 200px;"/>
+        <br>
+        <input type="submit" value="Prenota" id="submit" name="controller" style="margin-top: 20px; min-height: 50px; min-width: 200px;"/>
+        <br>
+        <input type="submit" value="Elimina" id="delete_consulenza" name="controller" style="margin-top: 20px; min-height: 50px; min-width: 200px;"/>
+      </form>
+    </div>
+  </body>
+</html>

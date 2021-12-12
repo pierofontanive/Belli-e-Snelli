@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--responsive-->
+
+        <title>
+                Visualizza_schede <!-- schede di un cliente con il suo allenatore-->
+        </title>
+        <input type="button" value="Torna alla Home" id="back_home" style="height:35px; width: 125px" onclick="location.href='http://localhost:3000/home.html'"/>
+        <input type="button" value="Aggiorna" id="refresh" style="height:35px; width: 125px" onclick="location.href='http://localhost:3000/cronologia_schede.html'"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     
+     <style>
+
+           table, th, td {
+                border: 0px solid black;
+                border-radius: 6px;
+                border-color: dimgray;
+                 }
+
+        </style>
+
+        <style>
+            td{
+                background-color: rgb(202, 200, 200);
+                text-align: center;
+            }
+        </style>
+
+        <style>
+            th{
+                background-color: rgb(20, 70, 120);
+                text-align: center;
+            }
+        </style>
+
+        <style>
+             body{
+    
+               background-image: url("/Photo/v_schede.jpg");
+               background-repeat: no-repeat;
+               background-attachment: fixed;
+               background-size: cover;
+
+                 }
+    
+      </style>
+
+    </head>
+
+    <body>
+
+        <h2 align="center" style="color: white;"> Workouts </h2>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+            <table style="width: auto;" align="center">
+
+                <tr>
+                    <th> Allenatore </th>
+                    <th> Data inserimento </th> <!-- La data non può essere inferiore di un mese tra una scheda ed un'altra -->
+                    <th> Numero scheda </th>
+                    <th> Visualizza scheda </th>
+                </tr>
+
+                <tr></tr><tr></tr><tr></tr> <!--per aggiungeree pazio tra header della tabella e cells-->
+
+               
+    
+    
+                <tr>
+                    <td> Alessandro </td>
+                    <td> 15-07-2021</td> 
+                    <td> 1 </td>
+                    <td> <button style="font-size:1px"> <a href="scheda.html"> <i class="material-icons">assignment</i></a></button> </td>
+                </tr>
+
+                <tr>
+                    <td> Alessandro </td>
+                    <td> 18-08-2021</td> 
+                    <td> 2 </td>
+                    <td> <button style="font-size:1px"> <a href="scheda.html"> <i class="material-icons">assignment</i></a></button> </td>
+                    
+                </tr>
+
+                <tr>
+                    <td> Alessandro </td>
+                    <td> 20-09-2021</td> 
+                    <td> 3 </td>
+                    <td> <button style="font-size:1px"> <a href="scheda.html"> <i class="material-icons">assignment</i></a></button> </td>
+                </tr>
+
+                <tr>
+                    <td> Marco </td>  <!-- L'allenatore è stato cambiato dal cliente-->
+                    <td> 21-10-2021</td> 
+                    <td> 4 </td>
+                    <td> <button style="font-size:1px"> <a href="scheda.html"> <i class="material-icons">assignment</i></a></button> </td>
+                </tr>
+
+                <tr>
+                    <td> Alessandro </td>  <!-- L'allenatore è stato cambiato dal cliente-->
+                    <td> 29-11-2021</td> 
+                    <td> 5 </td>
+                    <td> <button style="font-size:1px"> <a href="scheda.html"> <i class="material-icons">assignment</i></a></button> </td>
+                </tr>
+
+
+            </table>
+
+
+<br><br><br>
+
+
+
+    </body>
+</html>

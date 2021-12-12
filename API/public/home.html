@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <style>
+      body {
+        background-image: url("/Photo/images.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      text.center {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      img.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height:400px
+      }
+      table.center {
+        margin-left:auto; 
+        margin-right:auto; 
+      }
+      input {
+        border: 1px solid black;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <img style="display: block; margin-left: auto; margin-top: 50px; margin-right: auto;" src="/Photo/Belli_e_snelli_1.png" width="300px" height="300px"/>
+    <div style="text-align: center;">
+      <h3 style="color: rgb(20, 70, 120);" style="text-align:center;"><b>Benvenuto nella tua Home</b></h3>
+      <form>
+        <input type="button" value="Visualizza la Scheda attuale" id="visualizza_scheda" style="height:35px; width: 275px" onclick="location.href='http://localhost:3000/scheda.html'"/>
+        <br>
+        <input type="button" value="Visualizza la Cronologia delle Schede" id="cronologia_schede" style="height:35px; width: 275px" onclick="location.href='http://localhost:3000/cronologia_schede.html'"/>
+        <br>
+        <input type="button" value="Prenota una Consulenza" id="prenotazione_consulenza" style="height:35px; width: 275px" onclick="location.href='http://localhost:3000/nuova_prenotazione.html'"/>
+        <br>
+        <input type="button" value="Visualizza la Cronologia delle Prenotazioni" id="cronologia_consulenze" style="height:35px; width: 275px" onclick="location.href='http://localhost:3000/cronologia_prenotazioni.html'"/>
+        <br>
+      </form>
+    </div>
+    <form style="text-align: right;" action="login.html">
+      <input type="submit" value="Disconnetti" id="disconnect" style="height:35px; width: 100px"/>
+    </form>
+  </body>
+</html>

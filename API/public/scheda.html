@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Visualizza Scheda</title>
+    <style>
+      body {
+        background-image: url("/Photo/v_schede.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      table.mytable, table.mytable_2 {
+        border: 1px solid #555;
+      }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style_scheda.css">
+    <input type="button" value="Torna alla Home" id="back_home" style="height:35px; width: 125px" onclick="location.href='http://localhost:3000/home.html'"/>
+    <input type="button" value="Aggiorna" id="refresh" style="height:35px; width: 125px" onclick="location.href='http://localhost:3000/scheda.html'"/>
+  </head>
+  <body>
+    <div id="root">
+      <div class="container" id="new">
+        <div class="row align-items-center">
+          <div class="col-8">
+            <div class="d-flex justify-content-center">
+              <h1 class="display-1">Visualizzazione Scheda</h1>
+              <div class="wrap">
+                <table id="mytable"></table>
+                <table id="mytable_2"></table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="view_esercizi.js"></script>
+  </body>
+</html>
