@@ -24,3 +24,13 @@ To set up all the things you need, choose a folder that will contain the applica
 When you are done, in the same terminal run `npm install body-parser cors express express-fileupload mongoose swagger-jsdoc swagger-ui-express --save` to install all the packages needed.
 
 After you finished, just run `node index.js`, wait that the database connection is established, open your browser and search for http://localhost:3000/
+
+## How to test it?
+You need all the packages listed above, also you need to install some more packages in the same folder as the other ones:
+- supertest
+- tape
+- tape-spec
+
+Run the following commands: `npm install supertest --save-dev`,`npm install tape` and `npm install tap-spec --save-dev`
+
+Then, in the same terminal, just run `npm test` and it *should* work.
