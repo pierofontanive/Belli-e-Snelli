@@ -9,7 +9,7 @@ In this Repository you can find the web application called "Belli & Snelli". Thi
 - "package.json": contains information about the application and the packages used by it;
 - "package-lock": is automatically generated for any operations where npm modifies either the node_modules tree, or package.json. It describes the exact tree that was generated, such that subsequent installs are able to generate identical trees, regardless of intermediate dependency updates;
 
-## How to make it work?
+## How to install it?
 You need to have Node.js installed in you machine for this application to work.
 Also you need to install these packages:
 - body-parser
@@ -22,6 +22,8 @@ Also you need to install these packages:
 
 To set up all the things you need, choose a folder that will contain the application, open a terminal inside in that folder and run `npm init`.
 When you are done, in the same terminal run `npm install body-parser cors express express-fileupload mongoose swagger-jsdoc swagger-ui-express --save` to install all the packages needed.
+
+## How to make it work?
 
 After you finished, just run `node index.js`, wait that the database connection is established, open your browser and search for http://localhost:3000/
 
