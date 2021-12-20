@@ -34,8 +34,8 @@ Then, to be able to do the APIs testing, you also need:
 Name | Install cmd
 :--- | :---
 supertest | `npm install supertest@6.1.6 --save-dev`
-tape | `npm install tape@5.0.0`
-tap-spec | `npm install tap-spec@5.3.2 --save-dev`
+tap-spec | `npm install tap-spec@5.0.0 --save-dev`
+tape | `npm install tape@5.3.2`
 
 ## **How to run it**
 Open up a terminal inside of the API folder and run `node index.js`. After `IN ASCOLTO SULLA PORTA 3000` and `Collegato con successo al database` appeared in the terminal (make sure port 3000 is free), open your browser at the following [link](http://localhost:3000/) and then you are good to go.
