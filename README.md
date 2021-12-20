@@ -34,7 +34,7 @@ Then, to be able to do the APIs testing, you also need:
 Name | Install cmd
 :--- | :---
 supertest | `npm install supertest@6.1.6 --save-dev`
-tape | `npm install tape5.0.0`
+tape | `npm install tape@5.0.0`
 tap-spec | `npm install tap-spec@5.3.2 --save-dev`
 
 ## **How to run it**
