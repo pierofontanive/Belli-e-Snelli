@@ -54,7 +54,7 @@ For example, inside the 2 POST APIs, you can edit the RequestBody to check all t
 
 ## **Some utilities:**
 
-### **- How do I know which dates are available since I don't have permission to see the server?**
+### **- How do I know which dates are available since I don't have permission to see the database?**
 [This file](https://github.com/pierofontanive/Belli-e-Snelli/blob/main/date_slot.md) can help you out, or check the ResponseBody by executing the `/api/prenotazioni` [here](http://localhost:3000/api-docs/#/API/get_api_prenotazioni).
 
 ### **- What are the credentials to log into the application?**
