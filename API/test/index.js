@@ -70,7 +70,7 @@ test('TEST4: POST creazione/eliminazione di una consulenza', function(assert) {
             "data": "6/12/2021",
             "ora_da": "10:30",
             "ora_a": "11:30",
-            "controller": "Elimina"
+            "controller": "Prenota"
         })
         .end((err,res) => {
             console.log(res.status);
