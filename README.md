@@ -19,23 +19,23 @@ Download the repository and put it wherever you want. Then, in the API folder, o
 
 Name | Install cmds
 :--- | :---
-body-parser | `npm install body-parser --save`
-cors | `npm install cors --save`
-express | `npm install express --save`
-express-fileupload | `npm install express-fileupload --save`
-mongoose | `npm install mongoose --save`
-swagger-jsdoc | `npm install swagger-jsdoc --save`
-swagger-ui-express | `npm install swagger-ui-express --save`
+body-parser | `npm install body-parser@1.19.0 --save`
+cors | `npm install cors@2.8.5 --save`
+express | `npm install express@4.17.1 --save`
+express-fileupload | `npm install express-fileupload@1.2.1 --save`
+mongoose | `npm install mongoose@6.0.13 --save`
+swagger-jsdoc | `npm install swagger-jsdoc@6.1.0 --save`
+swagger-ui-express | `npm install swagger-ui-express@4.2.0 --save`
 
-Or simply paste *this* `npm install body-parser cors express express-fileupload mongoose swagger-jsdoc swagger-ui-express --save`.
+Or simply paste *this* `npm install body-parser@1.19.0 cors@2.8.5 express@4.17.1 express-fileupload@1.2.1 mongoose@6.0.13 swagger-jsdoc@6.1.0 swagger-ui-express@4.2.0 --save`.
 
 Then, to be able to do the APIs testing, you also need:
 
 Name | Install cmd
 :--- | :---
-supertest | `npm install supertest --save-dev`
-tape | `npm install tape`
-tap-spec | `npm install tap-spec --save-dev`
+supertest | `npm install supertest@6.1.6 --save-dev`
+tape | `npm install tape5.0.0`
+tap-spec | `npm install tap-spec@5.3.2 --save-dev`
 
 ## **How to run it**
 Open up a terminal inside of the API folder and run `node index.js`. After `IN ASCOLTO SULLA PORTA 3000` and `Collegato con successo al database` appeared in the terminal (make sure port 3000 is free), open your browser at the following [link](http://localhost:3000/) and then you are good to go.
