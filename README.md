@@ -52,7 +52,7 @@ At this [link](http://localhost:3000/api-docs/) you can try the same 4 APIs to c
 
 For example, inside the 2 POST APIs, you can edit the RequestBody to check all the possible responses sent by the server.
 
-*NOTE: in the 4th case test, the "correct" execution will work one time. To be able to change it, you have to edit "/test/index.js".*
+*NOTE: in the 4th case test, the "correct" execution will work one time. To be able to change it, you have to edit the controller field in "/test/index.js" and change it from "Prenota" to "Elimina".*
 
 ---
 
