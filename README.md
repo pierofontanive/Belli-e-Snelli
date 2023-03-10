@@ -1,4 +1,7 @@
 # **Belli-e-Snelli**
+
+## **NOTE: this repo is no longer maintained. Scripts and newer versions of the packages used may not work as intended.**
+
 ## **"Ingegneria del Software 2021"s project by G35**
 In this Repository you can find the web application called "Belli & Snelli". This application is useful for customers who take advantage of a gym membership, specifically for customers who take advantage of the help of a personal trainer. In this application you can search and book the slots, made available by the coaches, for the training sessions. In addition to this booking it is possible to have one or more personalized cards, which are contained in a special web screen. The customer, once booked, can see the most recent reservation in the foreground, but in addition, he can view all the reservations made and in which he was present. The client is one of the three Users we have described including Receptionist and Coach. Of these two, however, we have only described all the actions that they were able to do in the application through UserStories and UserFlow, however, leaving out the application as it is an application made public to the Customers and not to the other two actors. In the Github you will find a folder called "API", where you will find the following folders and files:
 
